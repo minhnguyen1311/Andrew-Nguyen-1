@@ -3,6 +3,7 @@ import heroImg from '../../assets/hero-img.png';
 import themeIcon from '../../assets/sun.svg';
 import githubIcon from '../../assets/github-light.svg';
 import linkedinIcon from '../../assets/linkedin-light.svg';
+import CV from '../../assets/Resume-for-React.pdf';
 
 function Hero() {
   return (
@@ -40,6 +41,9 @@ function Hero() {
                 With a passion for helping people and contributing to this world 
                 no matter what I do.
             </p>
+            <a href={CV} download>
+                <button className="hover"> Resume </button>
+            </a>
         </div>
     </section>
   );
