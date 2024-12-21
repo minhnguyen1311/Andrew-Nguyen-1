@@ -4,8 +4,11 @@ import themeIcon from '../../assets/sun.svg';
 import githubIcon from '../../assets/github-light.svg';
 import linkedinIcon from '../../assets/linkedin-light.svg';
 import CV from '../../assets/Resume-for-React.pdf';
+import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <section id="hero" className={styles.container}>
         <div className={styles.colorModeContainer}>
