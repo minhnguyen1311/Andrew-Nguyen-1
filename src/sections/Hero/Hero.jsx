@@ -36,6 +36,10 @@ function Hero() {
                     <img src={linkedinIcon} alt="LinkedIn icon"></img>
                 </a>
             </span>
+            <p>
+                With a passion for helping people and contributing to this world 
+                no matter what I do.
+            </p>
         </div>
     </section>
   );
