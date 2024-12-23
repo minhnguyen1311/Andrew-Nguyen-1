@@ -21,6 +21,7 @@ function Hero() {
                 className={styles.colorMode}
                 src={themeIcon}
                 alt="Color mode icon"
+                onClick={toggleTheme}
             />
         </div>
         <div className={styles.info}>
