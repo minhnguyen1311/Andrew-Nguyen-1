@@ -5,7 +5,7 @@ function Projects() {
   return ( 
     <section id="projects" className={styles.container}>
         <h1 className="sectionTitle"> Projects </h1>
-        <div ckassName={styles.projectsContainer}>
+        <div className={styles.projectsContainer}>
             <a 
                 href="https://github.com/minhnguyen1311/MentalSphere"
                 target="_blank">
