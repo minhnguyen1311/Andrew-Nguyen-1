@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import mentalSphere from '../../assets/mentalSphere.png';
 import moonScape from '../../assets/moonScape.png';
+import brickBuster from '../../assets/brickBuster.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -20,6 +21,13 @@ function Projects() {
             link="https://github.com/asapsui/MoonScape" 
             h3="MoonScape"  
             p="FPS Game"
+          />
+
+          <ProjectCard 
+            src={brickBuster}
+            link="https://github.com/minhnguyen1311/CS460student/tree/main/04" 
+            h3="Brick Buster"  
+            p="Atari Breakout-inspired Game"
           />
         </div>
     </section>
