@@ -1,5 +1,6 @@
 import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/hero-img.png';
+import heroImg2 from '../../assets/profile_pic.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import githubLight from '../../assets/github-light.svg';
@@ -21,7 +22,7 @@ function Hero() {
         <div className={styles.colorModeContainer}>
             <img 
                 className={styles.hero}
-                src={heroImg} 
+                src={heroImg2} 
                 alt="Profile picture of Andrew Nguyen" 
             />
             <img 
