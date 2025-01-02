@@ -26,8 +26,8 @@ function Projects() {
           <ProjectCard 
             src={brickBuster}
             link="https://github.com/minhnguyen1311/CS460student/tree/main/04" 
-            h3="Brick Buster"  
-            p="Atari Breakout-inspired Game"
+            h3="BrickBuster"  
+            p="Atari Breakout Game"
           />
         </div>
     </section>
