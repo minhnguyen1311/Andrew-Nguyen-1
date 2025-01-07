@@ -1,8 +1,6 @@
-# React + Vite
+# Authors and Acknowledgment
+This project was developed by Andrew (Minh) Nguyen (myself) as a personal website. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+While the project is solely my own work, I want to give special thanks to Harris Johnsen, the owner of the YouTube channel "How to Become a Developer," for the meticulous guidance, valuable lessons, and support I received through the video tutorial, which significantly contributed to its success. The knowledge gained from topics such as React JS, Vite, Node, JSX, HTML, CSS, JavaScript, and how to generate quality AI images played a huge part in creating my new personal website.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The tutorial video is here: https://youtu.be/ZpIel9cv4Jk?si=EM2BRuNh-wnUq28j
