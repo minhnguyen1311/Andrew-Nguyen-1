@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import mentalSphere from '../../assets/mentalSphere.png';
 import moonScape from '../../assets/moonScape.png';
 import brickBuster from '../../assets/brickBuster.png';
+import AR_Visualization from '../../assets/AR_Visualization.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -28,6 +29,13 @@ function Projects() {
             link="https://github.com/minhnguyen1311/CS460student/tree/main/04" 
             h3="BrickBuster"  
             p="Atari Breakout Game"
+          />
+
+          <ProjectCard 
+            src={AR_Visualization}
+            link="https://github.com/minhnguyen1311/CS460student/tree/main/05/AR_visualization" 
+            h3="AR Visualization"  
+            p="Product Visualization"
           />
         </div>
     </section>
