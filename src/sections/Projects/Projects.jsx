@@ -4,6 +4,7 @@ import moonScape from '../../assets/moonScape.png';
 import brickBuster from '../../assets/brickBuster.png';
 import AR_Visualization from '../../assets/AR_Visualization.png';
 import cubeBuilder from '../../assets/cubeBuilder.png';
+import suggestionWebsite from '../../assets/suggestion_website.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -44,6 +45,13 @@ function Projects() {
             link="https://github.com/minhnguyen1311/CS460student/tree/main/05/AR_visualization" 
             h3="AR Visualization"  
             p="Product Visualization"
+          />
+
+          <ProjectCard 
+            src={suggestionWebsite}
+            link="https://suggestion-website-1.netlify.app/" 
+            h3="Website"
+            p="Travel Suggestion"
           />
         </div>
     </section>
