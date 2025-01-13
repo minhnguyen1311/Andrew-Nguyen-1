@@ -3,6 +3,7 @@ import mentalSphere from '../../assets/mentalSphere.png';
 import moonScape from '../../assets/moonScape.png';
 import brickBuster from '../../assets/brickBuster.png';
 import AR_Visualization from '../../assets/AR_Visualization.png';
+import cubeBuilder from '../../assets/cubeBuilder.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -29,6 +30,13 @@ function Projects() {
             link="https://github.com/minhnguyen1311/CS460student/tree/main/04" 
             h3="BrickBuster"  
             p="Atari Breakout Game"
+          />
+
+          <ProjectCard 
+            src={cubeBuilder}
+            link="https://github.com/minhnguyen1311/CS460student/tree/main/02" 
+            h3="Cube Builder"  
+            p="3D Cube Art"
           />
 
           <ProjectCard 
